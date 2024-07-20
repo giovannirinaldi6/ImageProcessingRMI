@@ -1,0 +1,5 @@
+javac -d bin src/shared/ImageResult.java src/shared/InterfaceImageProcessing.java src/server/ImplInterfaceImageProcessing.java src/server/ImageProcessingServer.java src/client/ImageProcessingClient.java src//client/ImageCheck.java
+
+java -cp bin server.ImageProcessingServer
+
+java -cp bin client.ImageProcessingClient input.txt grayscale
